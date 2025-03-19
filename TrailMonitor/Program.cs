@@ -70,7 +70,7 @@ class Program
         lastAlertTime = DateTime.Now;
 
         string webhookUrl = "";
-        string message = "🚨 Trail-Mapper bot '**Qati**' detected a nether trail! Coordinates saved <a:ahhhh:422347143983005696>";
+        string message = "<:NekoWut:889434608037421066> Your account '' detected a nether trail! Coordinates have been saved.";
 
         using (HttpClient client = new HttpClient())
         {
