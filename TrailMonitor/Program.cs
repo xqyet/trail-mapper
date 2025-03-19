@@ -69,7 +69,7 @@ class Program
 
         lastAlertTime = DateTime.Now;
 
-        string webhookUrl = "https://discord.com/api/webhooks/1351921190402523218/Mhtrjl0_xgDnu1BOFsfXyY-TYDPnMhMJ3qqoYejObLwmfkbdtp-V8Y3dR_a2fQ5JUwpW";
+        string webhookUrl = "";
         string message = "🚨 Trail-Mapper bot '**Qati**' detected a nether trail! Coordinates sent to DM! <a:ahhhh:422347143983005696>";
 
         using (HttpClient client = new HttpClient())
